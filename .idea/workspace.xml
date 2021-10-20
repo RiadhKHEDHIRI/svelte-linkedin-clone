@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e3e7e16-fab2-4835-8c88-687e9f0d7c68" name="Changes" comment="Update NPM packages">
-      <change afterPath="$PROJECT_DIR$/src/tailwind.css" afterDir="false" />
+    <list default="true" id="0e3e7e16-fab2-4835-8c88-687e9f0d7c68" name="Changes" comment="Add Tailwind CSS">
+      <change afterPath="$PROJECT_DIR$/src/lib/Feed.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/Header.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/HeaderOption.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/InputOption.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/Post.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/Sidebar.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/WritePost.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.cjs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +22,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="Header" />
+        <option value="HeaderOption" />
+        <option value="Sidebar" />
+        <option value="Feed" />
+        <option value="WritePost" />
+        <option value="InputOption" />
+        <option value="Post" />
       </list>
     </option>
   </component>
@@ -96,6 +108,10 @@
       <option name="presentableId" value="Default" />
       <updated>1634565810318</updated>
       <workItem from="1634565811900" duration="576000" />
+      <workItem from="1634585984534" duration="3488000" />
+      <workItem from="1634659532636" duration="4006000" />
+      <workItem from="1634736457910" duration="2748000" />
+      <workItem from="1634739240247" duration="1140000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1634566189487</created>
@@ -111,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634566254498</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Tailwind CSS">
+      <created>1634569007312</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1634569007312</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,10 +150,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Update NPM packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update NPM packages" />
+    <MESSAGE value="Add Tailwind CSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Tailwind CSS" />
   </component>
 </project>
